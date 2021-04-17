@@ -16,4 +16,4 @@ while True:
 
   payload = {"Temperatura-Temuco": temperatura_actual}
   r = requests.get("https://node-red-frivera.mybluemix.net/nodo-http-temps", params=payload)
-  time.sleep(300)
+  time.sleep(3)
